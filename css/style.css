@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+p {
+  font-size: 18px;
+}
+
+body {
+  font: 16px "Nunito", sans-serif;
+  color: #fff;
+}
+
+.screen {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+.screen .left-side-illustration {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.screen .left-side-illustration img {
+  max-width: 100%;
+  height: 100vh;
+}
+.screen .right-side {
+  width: 30rem;
+  background-color: #373660;
+  padding: 0 3rem;
+}
+.screen .right-side .right-side__title {
+  text-align: center;
+  margin-top: 10rem;
+  font-size: 2.3rem;
+  color: #FFC967;
+}
+.screen .right-side .right-side__form {
+  margin: 3rem 0;
+}
+.screen .right-side .right-side__form .form__title {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+  color: #FFC967;
+}
+.screen .right-side .right-side__form label {
+  display: block;
+  margin-bottom: 2rem;
+}
+.screen .right-side .right-side__form input {
+  width: 100%;
+  background-color: #dddcdc;
+  border: 1px solid #999;
+  border-radius: 5px;
+  padding: 0.9rem;
+  font-size: 1.2rem;
+  outline: none;
+}
+.screen .right-side .right-side__form .btn-register {
+  background-color: #FFC967;
+  border: none;
+  cursor: pointer;
+}
+.screen .right-side .right-side__form .btn-register:hover {
+  background-color: #f7ddad;
+}
+.screen .right-side .enther-the-account {
+  text-align: center;
+}
+.screen .right-side .enther-the-account a {
+  color: #FFC967;
+}
+.screen .right-side .enther-the-account a:hover {
+  color: #FF6D60;
+}
+
+.error {
+  font-size: 14px;
+  background-color: #ff0000;
+  border-radius: 5px;
+  color: #fff;
+}
+
+/*# sourceMappingURL=style.css.map */

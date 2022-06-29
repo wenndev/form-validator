@@ -1,0 +1,96 @@
+@use 'reset';
+@use 'variables';
+
+body {
+    font: 16px 'Nunito',sans-serif;
+    color: variables.$font-color-secondary;
+}
+.screen {
+    width:100%;
+    height: 100vh;
+    display: flex;
+    
+    .left-side-illustration{
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+        img {
+            max-width: 100%;
+            height:100vh;
+        }
+      
+    }
+
+    .right-side{
+        width:30rem;
+        background-color:variables.$bgcolor-form;
+        padding: 0 3rem;
+       
+    
+        .right-side__title {
+            text-align: center;
+            margin-top: 10rem;
+            font-size:2.3rem;
+            color: variables.$font-color-primary;
+          
+        }
+        .right-side__form {
+            margin: 3rem 0;
+
+            .form__title{
+                font-size: 1rem;
+                margin: 0.5rem 0;
+                color: variables.$font-color-primary;
+            }
+            label {
+                display: block;
+                margin-bottom: 2rem;
+            }
+            
+            input {
+                width: 100%;
+                background-color: #dddcdc;
+                border: 1px solid #999;
+                border-radius:5px;
+                padding:0.9rem;
+                font-size:1.2rem;
+                outline: none;
+            }
+    
+           .btn-register{
+               background-color:variables.$font-color-primary;
+               border: none;
+               cursor: pointer;
+
+               &:hover{
+                   background-color:#f7ddad;
+               }
+           }
+        }
+
+        .enther-the-account{
+            text-align: center;
+           
+            a{
+                color:variables.$font-color-primary;
+
+                &:hover{
+                    color: #FF6D60;
+                }
+            }
+        }
+    }
+}
+
+
+// classe js;
+
+.error {
+    font-size:14px;
+    background-color:#ff0000;
+    border-radius: 5px;
+    color: variables.$font-color-secondary;
+}
+
